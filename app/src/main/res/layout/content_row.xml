@@ -16,7 +16,7 @@
         android:weightSum="2"
         android:orientation="vertical">
         <TextView
-            android:textColor="@android:color/facelock_spotlight_mask"
+            android:textColor="#212121"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.5"
