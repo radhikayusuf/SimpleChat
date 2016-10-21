@@ -1,5 +1,7 @@
 package com.pkl.gits.simplechat.main;
 
+import android.content.Context;
+
 import com.pkl.gits.simplechat.R;
 import com.pkl.gits.simplechat.databinding.ActivityMainBinding;
 import com.pkl.gits.simplechat.main.viewmodel.MainActivityVM;
@@ -26,5 +28,7 @@ public class MainActivity extends GitsActivity<MainActivityVM, ActivityMainBindi
     @Override
     public void bindViewModel(ActivityMainBinding binding, MainActivityVM viewModel) {
         binding.setVm(viewModel);
+
     }
 }
+
